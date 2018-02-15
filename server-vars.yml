@@ -130,8 +130,8 @@ API_ACCESS_MANAGER_EMAIL: 'university@longomatch.com'
 EDXAPP_SERVER_URL: 'http://127.0.0.1:8000/cas'
 EDXAPP_CAS_ATTRIBUTE_PACKAGE: "git+https://github.com/mitocw/mitx_cas_mapper"
 EDXAPP_CAS_ATTRIBUTE_CALLBACK:
-          module: "mitx_cas_mapper"
-            function: "populate_user"
+ module: "mitx_cas_mapper"
+ function: "populate_user"
 
 #
 ########### end email settings ##########
